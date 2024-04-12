@@ -12,7 +12,7 @@ closeBtn.forEach((cbtn) => {
   });
 });
 overlay.addEventListener("click", (e) => {
-  console.log(e.target);
+  // console.log(e.target);
   if (e.target === overlay) {
     modalBox.classList.remove("show");
   }
